@@ -1,5 +1,9 @@
 local log = hs.logger.new('init.lua', 'debug')
 
+hs.hotkey.bind({"cmd", "alt"}, "1", function()
+  hs.eventtap.keyStrokes("kevin@infuse.us")
+end)
+
 -- Use Control+\ to reload Hammerspoon config
 hs.hotkey.bind({'ctrl'}, '/', nil, function()
   hs.reload()
