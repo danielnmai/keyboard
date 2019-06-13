@@ -18,9 +18,9 @@
                     {
                         "manipulators": [
                             {
-                                "description": "Change Right Shift to Hyper (i.e., command+control+option+shift)",
+                                "description": "Change Right Command to Hyper (i.e., command+control+option+shift)",
                                 "from": {
-                                    "key_code": "right_shift",
+                                    "key_code": "right_command",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -42,14 +42,14 @@
                         ]
                     },
                     {
-                        "description": "Mouse keys (simple) (rev 1)",
+                        "description": "Mouse keys Right Shift + WASD",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "w",
                                     "modifiers": {
                                         "mandatory": [
-                                            "right_command"
+                                            "right_shift"
                                         ],
                                         "optional": [
                                             "any"
